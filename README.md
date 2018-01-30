@@ -5,7 +5,7 @@ https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstarts
 <br>
 Entry Point: Call main function in mircosoft_translator_api.py
 
-language symbols:
+language symbols:<br>
 [u'ar', u'bg', u'ca', u'zh-CHS', u'zh-CHT', u'cs', u'da', u'nl', u'en', 
 u'et', u'fi', u'fr', u'de', u'el', u'ht', u'he', u'hi', u'mww', u'hu', 
 u'id', u'it', u'ja', u'tlh', u'tlh-Qaak', u'ko', u'lv', u'lt', u'ms', 

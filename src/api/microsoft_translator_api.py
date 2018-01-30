@@ -4,6 +4,7 @@ Created on 2018年1月26日
 @author: Ming_Wu
 '''
 
+import os  
 import json
 import http.client, urllib.parse
 import xml.etree.ElementTree as ET
@@ -12,7 +13,8 @@ host = 'api.microsofttranslator.com'
 path = '/V2/Http.svc/Translate'
     
 def getConfig():
-    data = json.load(open('client_secret.json'))
+    path = os.path.abspath('../..')  #表示当前所处的文件夹上兩级文件夹的绝对路径  
+    data = json.load(open(path+'\\client_secret.json'))
     return data["serverkey"]
 
 def tanslateWithTarget(text, target):
