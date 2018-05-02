@@ -1,4 +1,4 @@
-# PyMSTranslator
+# py_microsoft_translato
 Python sample code for Microsoft Translator Text API<br>
 Reference from<br>
 https://docs.microsoft.com/en-us/azure/cognitive-services/translator/quickstarts/python<br>
